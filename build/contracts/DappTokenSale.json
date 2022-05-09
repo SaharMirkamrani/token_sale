@@ -1,0 +1,216 @@
+{
+  "contractName": "DappTokenSale",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Sahar Mirkamrani/Desktop/token_sale/contracts/DappTokenSale.sol\":\"DappTokenSale\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Sahar Mirkamrani/Desktop/token_sale/contracts/DappTokenSale.sol\":{\"keccak256\":\"0x53b15f98be8f7e6b796dc00a471421240bbe1bf52ea55c303452054b3b0ee8b4\",\"urls\":[\"bzz-raw://0b3f868957f07beb76816443090c9360f16f8c6bc89af23b2c99149933b2b42d\",\"dweb:/ipfs/QmcBCka4cREeS2Cbk7PX29YfNty4d6teb4NaJQhc2ouCtS\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582045bbab3d46d44d8ad2ac05cafd7112c3abada2bf6b9597dfb39cdf5696aa35d364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582045bbab3d46d44d8ad2ac05cafd7112c3abada2bf6b9597dfb39cdf5696aa35d364736f6c63430005100032",
+  "sourceMap": "67:131:0:-;;;96:95;8:9:-1;5:2;;;30:1;27;20:12;5:2;96:95:0;67:131;;;;;;",
+  "deployedSourceMap": "67:131:0:-;;;;;",
+  "source": "//SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract DappTokenSale {\r\n\r\n\tconstructor() public {\r\n\t\t// Assign an admin\r\n\t\t// Token Contract\r\n\t\t// Token price\r\n\r\n\t\t\r\n\r\n\t}\r\n\r\n\r\n}",
+  "sourcePath": "C:/Users/Sahar Mirkamrani/Desktop/token_sale/contracts/DappTokenSale.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Sahar Mirkamrani/Desktop/token_sale/contracts/DappTokenSale.sol",
+    "exportedSymbols": {
+      "DappTokenSale": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:31:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "DappTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "117:74:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "117:0:0"
+            },
+            "scope": 6,
+            "src": "96:95:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "67:131:0"
+      }
+    ],
+    "src": "32:166:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/Sahar Mirkamrani/Desktop/token_sale/contracts/DappTokenSale.sol",
+      "exportedSymbols": {
+        "DappTokenSale": [
+          6
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:31:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6
+          ],
+          "name": "DappTokenSale",
+          "scope": 7
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 6,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "107:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3,
+                "name": "ParameterList",
+                "src": "117:0:0"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4,
+                "name": "Block",
+                "src": "117:74:0"
+              }
+            ],
+            "id": 5,
+            "name": "FunctionDefinition",
+            "src": "96:95:0"
+          }
+        ],
+        "id": 6,
+        "name": "ContractDefinition",
+        "src": "67:131:0"
+      }
+    ],
+    "id": 7,
+    "name": "SourceUnit",
+    "src": "32:166:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2022-05-07T10:02:45.834Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
